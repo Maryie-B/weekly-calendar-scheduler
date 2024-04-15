@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.calendar-wrapper {
+  background-color: rgb(110, 18, 40);
+  color: white;
+  padding: 1.5rem 3rem;
+  border-radius: 0.3rem;
+}
+
+.calendar-header {
+  display: flex;
+  flex-direction: row;
+  border-color: white;
+  border-style: dashed;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.calendar-button {
+  background-color: rgba(0, 0, 0, 0);
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-color: white;
+  border-radius: 0.3rem;
+  color: white;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.calendar-text {
+  font-size: 1.5rem;
+  padding: 0rem 1rem;
+}
+
+.days-header {
+  
+  flex-direction: row;
+}

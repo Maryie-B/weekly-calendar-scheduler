@@ -1,0 +1,80 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.calendar-wrapper {
+  background-color: rgb(110, 18, 40);
+  min-width: 700px;
+  min-height: 200px;
+  color: white;
+  padding: 1.5rem 3rem;
+  border-radius: 0.3rem;
+}
+
+.calendar-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+
+.calendar-button {
+  background-color: rgba(0, 0, 0, 0);
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-color: white;
+  border-radius: 0.3rem;
+  color: white;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.calendar-text {
+  padding: 0rem 1rem;
+}
+
+.calendar-days-wrapper {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.days-header {
+  background-color: rgb(68, 8, 17);
+  min-height: 2rem;
+  border: solid rgb(63, 2, 2) 1px;
+  align-items: center;
+}
+
+#interval-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 2.4rem 0;
+}
+
+/* .days-header > div{
+  background-color: rgb(68, 8, 17);
+  min-height: 2rem;
+  padding: 3rem 0;
+  border: solid rgb(63, 2, 2) 1px;
+  align-items: center;
+} */
+
+
+.hour-intervals {
+  background-color: rgb(52, 188, 138);
+  padding: 0.3rem;
+  border-bottom: solid black 1px;
+}
+
+.hour-intervals-empty {
+  min-height: 2.1rem;
+  background-color: bisque;
+  border-bottom: solid black 1px;
+}

@@ -1,0 +1,20 @@
+import { useState } from "react"
+
+const CalendarDays = () => {
+  const weekDays = ['Luni', 'Marți', 'Miercuri', 'Joi', 'Vineri', 'Sâmbătă', 'Duminică']
+
+  return (
+    <div className="calendar-days-wrapper">
+      {weekDays.map((day, index) => {
+        return (
+        <div className="days-header" key={index}>
+           {day}
+        </div>
+        )
+      })}
+      <h2>TEST</h2>
+    </div>
+  )
+}
+
+export default CalendarDays
